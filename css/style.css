@@ -1,0 +1,40 @@
+body {
+  background-color: gray;
+}
+
+header {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.parent {
+  margin-top: 17%;
+  margin-left, margin-rigth: 2%;
+}
+
+.block, .author {
+  color: black;
+  background: white;
+  border-radius: 20px;
+  padding: 3px;
+  
+}
+
+.author {
+  margin-top: 3%;
+}
+
+@media screen and (min-device-width: 990px) and (min-width: 990px) {
+  .author {margin-top: 25%;}
+}
+
+#getQuote, #getQuot {
+  margin-top: 22%;
+  font-size: 1.3em
+}
+
+.tweet-quote {
+  padding-left: 16px;
+  padding-right: 16px
+}
+
