@@ -21,7 +21,7 @@ $('#getQuote').on('click', function() {
   
   $('#getQuote').animate({
     color: colors[color]
-  });
+  }, 1900);
   
   $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(data) {
     $('.block').animate({
