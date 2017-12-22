@@ -30,7 +30,8 @@ header {
 
 #getQuote, #getQuot {
   margin-top: 22%;
-  font-size: 1.3em
+  margin-bottom: 30px;
+  font-size: 1.3em;
 }
 
 .tweet-quote {
